@@ -1,0 +1,17 @@
+.display-block{
+    display: block !important;
+}
+
+.display-none{
+    display: none;
+}
+
+.btn-add {
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background: #ffffff00;
+    border: 3px solid #1992c4;
+    color: #1992c4;
+    font-weight: 700;
+}
