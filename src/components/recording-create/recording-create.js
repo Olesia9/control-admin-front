@@ -13,7 +13,6 @@ const RecordingCreate = ({fetchDat}) => {
         setShowModal(false);
     };
 
-
     const showHideClassNam = showModal ? "modal display-block" : "modal display-none";
 
     const [formCreateData, setFormCreateData] = useState({});

@@ -42,7 +42,6 @@ const App = () => {
                 </div>
                 <div className="flex-large">
                     {loading ? ( // Показывать "Loading..." только при загрузке данных
-                        // <p>Loading...</p>
                         <span className="loader"></span>
                     ) : (
                         <PatientTable data={dataArray.data} fetchData={fetchData}/>
